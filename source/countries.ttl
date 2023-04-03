@@ -9,7 +9,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-@base <https://id.kb.se/country/> .
+@base <https://id.melindax.local/country/> .
 
 <9a> a schema:Country ;
     rdfs:comment "Librisdefinierad kod"@sv ;

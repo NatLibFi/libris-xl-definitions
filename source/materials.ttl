@@ -3,7 +3,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix : <https://id.kb.se/vocab/> .
 @prefix marc: <https://id.kb.se/marc/> .
-@base <https://id.kb.se/material/> .
+@base <https://id.melindax.local/material/> .
 
 @prefix aat: <http://vocab.getty.edu/aat/> .
 @prefix rdamat: <http://rdaregistry.info/termList/RDAMaterial/> .

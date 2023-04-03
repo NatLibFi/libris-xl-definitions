@@ -3,7 +3,7 @@
 @prefix sdo: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix : <https://id.kb.se/vocab/> .
-@base <https://id.kb.se/term/rda/musnotation/> .
+@base <https://id.melindax.local/term/rda/musnotation/> .
 
 @prefix rdafmn: <http://rdaregistry.info/termList/MusNotation/> .
 @prefix marcmus: <http://id.loc.gov/vocabulary/mmusnotation/> .

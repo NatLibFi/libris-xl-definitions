@@ -8,7 +8,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-@base <https://id.kb.se/language/> .
+@base <https://id.melindax.local/language/> .
 
 <9an> a schema:Language ;
     rdfs:comment "\"9an\" Librisdefinierad MARC-kod."@sv ;

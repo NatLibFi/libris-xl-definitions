@@ -8,7 +8,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix : <https://id.kb.se/vocab/> .
 
-@base <https://id.kb.se/term/> .
+@base <https://id.melindax.local/term/> .
 
 #</term> a void:Dataset;
 #    void:class skos:ConceptScheme .
@@ -293,7 +293,7 @@
 
 # Aliases for external SubjectSchemes
 
-#@base <https://id.kb.se/ext/term/> . # ?
+#@base <https://id.melindax.local/ext/term/> . # ?
 # add @sv on titles in other languages or keep an untagged version?
 
 <agrifors> a :TopicScheme;

@@ -3,7 +3,7 @@
 @prefix sdo: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix : <https://id.kb.se/vocab/> .
-#@base <https://id.kb.se/term/rda/movnotation/> . TODO: Define in datasets. movnotation or notemove.
+#@base <https://id.melindax.local/term/rda/movnotation/> . TODO: Define in datasets. movnotation or notemove.
 
 @prefix rdafnv: <http://rdaregistry.info/termList/noteMove/> .
 

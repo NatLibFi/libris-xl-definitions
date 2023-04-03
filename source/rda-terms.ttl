@@ -3,7 +3,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-@base <https://id.kb.se/term/rda/> .
+@base <https://id.melindax.local/term/rda/> .
 
 
 ## Carriers ##
