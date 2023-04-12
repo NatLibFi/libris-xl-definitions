@@ -1,4 +1,4 @@
-@prefix : <https://id.kb.se/vocab/> .
+@prefix: <https://id.melindax.local/vocab/> .
 
 <https://id.kb.se/term/sao/> a :EntityContainer ;
     :membershipResource <https://id.kb.se/term/sao> ;

@@ -5,8 +5,8 @@
 @prefix bf2: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdaent: <http://rdvocab.info/uri/schema/FRBRentitiesRDA/> .
 @prefix holding: <http://purl.org/ontology/holding#> .
-@prefix : <https://id.kb.se/vocab/> .
-@prefix marc: <https://id.kb.se/marc/> .
+@prefix: <https://id.melindax.local/vocab/> .
+@prefix marc: <https://id.melindax.local/marc/> .
 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .

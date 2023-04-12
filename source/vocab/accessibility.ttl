@@ -6,7 +6,7 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix sdo: <http://schema.org/> .
 
-@prefix : <https://id.kb.se/vocab/> .
+@prefix: <https://id.melindax.local/vocab/> .
 
 
 # NOTE: This a preliminary scetch of accesibility terms used by epub3/a11y.

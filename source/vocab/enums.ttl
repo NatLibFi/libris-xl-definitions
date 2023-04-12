@@ -13,7 +13,7 @@
 
 @prefix rdam: <http://rdaregistry.info/Elements/m/> .
 
-@prefix : <https://id.kb.se/vocab/> .
+@prefix: <https://id.melindax.local/vocab/> .
 
 
 :cartographicAttributes a owl:ObjectProperty;

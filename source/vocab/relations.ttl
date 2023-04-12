@@ -20,8 +20,8 @@
 @prefix rdau: <http://rdaregistry.info/Elements/u/> .
 @prefix rdaw: <http://rdaregistry.info/Elements/w/> .
 
-@prefix : <https://id.kb.se/vocab/> .
-@prefix marc: <https://id.kb.se/marc/> .
+@prefix: <https://id.melindax.local/vocab/> .
+@prefix marc: <https://id.melindax.local/marc/> .
 
 :license a owl:ObjectProperty;
     rdfs:label "licens"@sv, "license"@en ;

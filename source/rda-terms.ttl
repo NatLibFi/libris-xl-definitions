@@ -1,5 +1,5 @@
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
-@prefix marc: <https://id.kb.se/marc/> .
+@prefix marc: <https://id.melindax.local/marc/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 

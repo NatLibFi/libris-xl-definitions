@@ -11,8 +11,8 @@
 @prefix sdo: <http://schema.org/> .
 @prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
 
-@prefix : <https://id.kb.se/vocab/> .
-@prefix marc: <https://id.kb.se/marc/> .
+@prefix: <https://id.melindax.local/vocab/> .
+@prefix marc: <https://id.melindax.local/marc/> .
 
 
 :Place a owl:Class;

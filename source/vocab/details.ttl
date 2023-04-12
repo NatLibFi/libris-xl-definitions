@@ -21,7 +21,7 @@
 @prefix rdaz: <http://rdaregistry.info/Elements/z/> .
 @prefix rdau: <http://rdaregistry.info/Elements/u/> .
 
-@prefix : <https://id.kb.se/vocab/> .
+@prefix: <https://id.melindax.local/vocab/> .
 @prefix kbrel: <https://id.kb.se/relator/> .
 
 ##--------------------------------#

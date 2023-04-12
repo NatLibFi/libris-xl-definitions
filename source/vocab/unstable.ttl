@@ -9,9 +9,9 @@
 @prefix sdo: <http://schema.org/> .
 @prefix rdael: <http://rdvocab.info/Elements/> .
 
-@prefix : <https://id.kb.se/vocab/> .
+@prefix: <https://id.melindax.local/vocab/> .
 
-@prefix marc: <https://id.kb.se/marc/> .
+@prefix marc: <https://id.melindax.local/marc/> .
 
 
 

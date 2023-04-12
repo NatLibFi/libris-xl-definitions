@@ -20,7 +20,7 @@
 
 @prefix quid: <https://w3id.org/quid/> .
 
-@prefix : <https://id.kb.se/vocab/> .
+@prefix: <https://id.melindax.local/vocab/> .
 
 
 : a owl:Ontology;
