@@ -21,8 +21,8 @@
 @prefix rdaz: <http://rdaregistry.info/Elements/z/> .
 @prefix rdau: <http://rdaregistry.info/Elements/u/> .
 
-@prefix: <https://id.melindax.local/vocab/> .
-@prefix kbrel: <https://id.melindax.local/relator/> .
+@prefix: <https://id.lkd.local/vocab/> .
+@prefix kbrel: <https://id.lkd.local/relator/> .
 
 ##--------------------------------#
 ## Title Information

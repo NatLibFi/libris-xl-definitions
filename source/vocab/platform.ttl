@@ -25,8 +25,8 @@
 @prefix sindsearch: <http://sindice.com/vocab/search#> .
 @prefix opensearch: <http://a9.com/-/spec/opensearch/1.1/> .
 
-@prefix: <https://id.melindax.local/vocab/> .
-@prefix marc: <https://id.melindax.local/marc/> .
+@prefix: <https://id.lkd.local/vocab/> .
+@prefix marc: <https://id.lkd.local/marc/> .
 
 
 #:platform a :Category ; rdfs:comment " ... "@en .

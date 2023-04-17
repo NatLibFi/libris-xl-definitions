@@ -5,7 +5,7 @@ construct {
         skos:prefLabel ?prefLabel ;
         skos:definition ?definition .
 } where {
-    graph <https://id.melindax.local/dataset/tacnotationterms> {
+    graph <https://id.lkd.local/dataset/tacnotationterms> {
         ?s ?p ?o ; skos:exactMatch ?rda .
         optional {
             graph <http://rdaregistry.info/termList/TacNotation.nt> {

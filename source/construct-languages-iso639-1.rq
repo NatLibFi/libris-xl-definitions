@@ -4,8 +4,8 @@ prefix skos: <http://www.w3.org/2004/02/skos/core#>
 prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#>
 prefix dc: <http://purl.org/dc/terms/>
 prefix iso639_1: <http://id.loc.gov/vocabulary/iso639-1/>
-prefix kbv: <https://id.melindax.local/vocab/>
-prefix langtag: <https://id.melindax.local/i18n/lang/>
+prefix kbv: <https://id.lkd.local/vocab/>
+prefix langtag: <https://id.lkd.local/i18n/lang/>
 
 construct {
     ?s ?p ?o ;
@@ -13,7 +13,7 @@ construct {
         skos:notation ?langCodeShort, ?langTag ;
         skos:closeMatch ?locVariant .
 } where {
-    graph <https://id.melindax.local/dataset/languages> {
+    graph <https://id.lkd.local/dataset/languages> {
         ?s ?p ?o .
         optional {
             ?s skos:prefLabel ?prefLabel .

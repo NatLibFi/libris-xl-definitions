@@ -1,9 +1,9 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix: <https://id.melindax.local/vocab/> .
-@prefix marc: <https://id.melindax.local/marc/> .
-@base <https://id.melindax.local/material/> .
+@prefix: <https://id.lkd.local/vocab/> .
+@prefix marc: <https://id.lkd.local/marc/> .
+@base <https://id.lkd.local/material/> .
 
 @prefix aat: <http://vocab.getty.edu/aat/> .
 @prefix rdamat: <http://rdaregistry.info/termList/RDAMaterial/> .

@@ -1,8 +1,8 @@
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix skos: <http://www.w3.org/2004/02/skos/core#>
-prefix : <https://id.melindax.local/vocab/>
-prefix swepub: <https://id.melindax.local/term/swepub/>
-base <https://id.melindax.local/>
+prefix : <https://id.lkd.local/vocab/>
+prefix swepub: <https://id.lkd.local/term/swepub/>
+base <https://id.lkd.local/>
 
 
 swepub:Published a swepub:PublicationStatus ;

@@ -2,19 +2,19 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix sdo: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix: <https://id.melindax.local/vocab/> .
+@prefix: <https://id.lkd.local/vocab/> .
 @prefix aat: <http://vocab.getty.edu/aat/> .
-@base <https://id.melindax.local/term/repr/> . #TODO term till enums?
+@base <https://id.lkd.local/term/repr/> . #TODO term till enums?
 
 
 <Page> a :GenreForm ;
        skos:prefLabel "Page"@en, "Sida"@sv ;
-       skos:inScheme <https://id.melindax.local/term/repr> ; #TODO term till enums?
+       skos:inScheme <https://id.lkd.local/term/repr> ; #TODO term till enums?
        skos:closeMatch aat:300194222 .
 
 <Issue> a :GenreForm ;
        skos:prefLabel "Issue"@en, "Upplaga"@sv ;
-       skos:inScheme <https://id.melindax.local/term/repr> ; #TODO term till enums?
+       skos:inScheme <https://id.lkd.local/term/repr> ; #TODO term till enums?
        skos:closeMatch aat:300312349 .
 
 

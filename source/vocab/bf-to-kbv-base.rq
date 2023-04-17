@@ -1,7 +1,7 @@
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix owl: <http://www.w3.org/2002/07/owl#>
 prefix bf: <http://id.loc.gov/ontologies/bibframe/>
-prefix kbv: <https://id.melindax.local/vocab/>
+prefix kbv: <https://id.lkd.local/vocab/>
 prefix sdo: <http://schema.org/>
 
 construct {

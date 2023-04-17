@@ -2,8 +2,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix kbv: <https://id.melindax.local/vocab/> .
-@prefix marc: <https://id.melindax.local/marc/> .
+@prefix kbv: <https://id.lkd.local/vocab/> .
+@prefix marc: <https://id.lkd.local/marc/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix ptg: <http://protege.stanford.edu/plugins/owl/protege#> .
 

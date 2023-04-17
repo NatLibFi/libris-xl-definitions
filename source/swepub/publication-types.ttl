@@ -1,9 +1,9 @@
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix skos: <http://www.w3.org/2004/02/skos/core#>
-prefix : <https://id.melindax.local/vocab/>
-prefix swepub: <https://id.melindax.local/term/swepub/>
-prefix svep: <https://id.melindax.local/term/swepub/svep/>
-prefix sppubl: <https://id.melindax.local/term/swepub/publication/>
+prefix : <https://id.lkd.local/vocab/>
+prefix swepub: <https://id.lkd.local/term/swepub/>
+prefix svep: <https://id.lkd.local/term/swepub/svep/>
+prefix sppubl: <https://id.lkd.local/term/swepub/publication/>
 
 svep:ref a swepub:ContentType ;
      skos:prefLabel "Sakkunniggranskat"@sv ;

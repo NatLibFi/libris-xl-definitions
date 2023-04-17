@@ -12,7 +12,7 @@ construct {
 
 } where {
     {
-        graph <https://id.melindax.local/dataset/rdaterms> {
+        graph <https://id.lkd.local/dataset/rdaterms> {
             ?s ?p ?o .
         }
     } union {

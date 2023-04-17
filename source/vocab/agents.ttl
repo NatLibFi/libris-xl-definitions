@@ -15,8 +15,8 @@
 @prefix rdau: <http://rdaregistry.info/Elements/u/> .
 @prefix rdaa: <http://rdaregistry.info/Elements/a/> .
 
-@prefix: <https://id.melindax.local/vocab/> .
-@prefix marc: <https://id.melindax.local/marc/> .
+@prefix: <https://id.lkd.local/vocab/> .
+@prefix marc: <https://id.lkd.local/marc/> .
 
 
 ##

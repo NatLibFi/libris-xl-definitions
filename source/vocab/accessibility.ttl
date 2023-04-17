@@ -6,7 +6,7 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix sdo: <http://schema.org/> .
 
-@prefix: <https://id.melindax.local/vocab/> .
+@prefix: <https://id.lkd.local/vocab/> .
 
 
 # NOTE: This a preliminary scetch of accesibility terms used by epub3/a11y.
@@ -19,12 +19,12 @@
 
 
 # TODO:
-# Define Classes and/or Vocab terms for linkability. (https://id.melindax.local/term/a11y/... ?)
+# Define Classes and/or Vocab terms for linkability. (https://id.lkd.local/term/a11y/... ?)
 # for values see https://www.w3.org/wiki/WebSchemas/Accessibility
 #
 # TERM EXAMPLES:
 #
-# TODO: Should we have a base prefix like a11y: <https://id.melindax.local/term/a11y/> and/or deeper structures like in examples below?
+# TODO: Should we have a base prefix like a11y: <https://id.lkd.local/term/a11y/> and/or deeper structures like in examples below?
 #
 # </term/a11y/accessibilityFeature/alternativeText> a :AccessibilityFeatureType ;
 #     skos:prefLabel "Alternative Text"@en ;

@@ -9,9 +9,9 @@
 @prefix sdo: <http://schema.org/> .
 @prefix rdael: <http://rdvocab.info/Elements/> .
 
-@prefix: <https://id.melindax.local/vocab/> .
+@prefix: <https://id.lkd.local/vocab/> .
 
-@prefix marc: <https://id.melindax.local/marc/> .
+@prefix marc: <https://id.lkd.local/marc/> .
 
 
 
@@ -98,7 +98,7 @@
 
 # TODO: work-in-progress
 
-#@prefix app: <https://id.melindax.local/def/application#> .
+#@prefix app: <https://id.lkd.local/def/application#> .
 #
 #_:exampleOfWorkPartNumber a app:ContextualProperty;
 #    owl:propertyChainAxiom (:exampleOfWork :partNumber) ;

@@ -4,7 +4,7 @@ import os
 
 
 SCRIPT_DIR = os.path.dirname(__file__) or '.'
-BASE = 'https://melindax.local/'
+BASE = 'https://melindax.lkd.local/'
 
 
 compiler = Compiler(base_dir=SCRIPT_DIR,
@@ -29,8 +29,8 @@ def bibliographies():
 
 
 def _construct_bibdb_data(query):
-    libraries = _fetch_libraries(f'https://bibdb.melindax.local/api?{query}')
-    bidb_context = 'https://bibdb.melindax.local/libdb/static/meta/context.jsonld'
+    libraries = _fetch_libraries(f'https://bibdb.melindax.lkd.local/api?{query}')
+    bidb_context = 'https://bibdb.melindax.lkd.local/libdb/static/meta/context.jsonld'
     return compiler.construct(sources=[
             {
                 "dataset": BASE + "dataset/libraries",
@@ -38,10 +38,10 @@ def _construct_bibdb_data(query):
                 "context": [
                     compiler.load_json(compiler.cache_url(bidb_context)),
                     {
-                        "@base": "http://bibdb.melindax.local/",
+                        "@base": "http://bibdb.melindax.lkd.local/",
                         # TODO: these are dropped in the source context; fix that and drop this
-                        "date_created": "http://melindax.local/def/lib#date_created",
-                        "date_modified": "http://melindax.local/def/lib#date_modified",
+                        "date_created": "http://melindax.lkd.local/def/lib#date_created",
+                        "date_modified": "http://melindax.lkd.local/def/lib#date_modified",
                     }
                 ]
             }

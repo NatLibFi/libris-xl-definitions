@@ -1,9 +1,9 @@
 prefix xsd: <http://www.w3.org/2001/XMLSchema#>
-prefix : <https://id.melindax.local/vocab/>
-base <https://id.melindax.local/dataset/>
+prefix : <https://id.lkd.local/vocab/>
+base <https://id.lkd.local/dataset/>
 
 <common> a :Dataset;
-    :isPartOf <https://melindax.local/dataset> .
+    :isPartOf <https://melindax.lkd.local/dataset> .
 
 <enums> a :Dataset ;
     :sourceData [ :uri "build/enums.json.lines" ;

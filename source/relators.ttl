@@ -1,4 +1,4 @@
-@prefix: <https://id.melindax.local/vocab/> .
+@prefix: <https://id.lkd.local/vocab/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
 @prefix dc: <http://purl.org/dc/terms/> .
@@ -14,7 +14,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-@base <https://id.melindax.local/relator/> .
+@base <https://id.lkd.local/relator/> .
 
 <abridger> a bf:Role ;
     rdfs:domain :Work ;

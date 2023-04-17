@@ -10,7 +10,7 @@
 @prefix iiifpres3: <http://iiif.io/api/presentation/3/> .
 #prefix edm: <http://www.europeana.eu/schemas/edm/>
 @prefix relsubtype: <http://id.loc.gov/vocabulary/preservation/relationshipSubType/> .
-@prefix: <https://id.melindax.local/vocab/> .
+@prefix: <https://id.lkd.local/vocab/> .
 
 ##
 # PREMIS 3.0

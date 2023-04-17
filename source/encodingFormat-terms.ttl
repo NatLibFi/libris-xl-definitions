@@ -1,11 +1,11 @@
-@prefix: <https://id.melindax.local/vocab/> .
+@prefix: <https://id.lkd.local/vocab/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix sdo: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix iana: <https://www.iana.org/assignments/media-types/> .
 @prefix lcmenc: <https://id.loc.gov/vocabulary/mencformat/> .
-@base <https://id.melindax.local/encodingFormat/> .
+@base <https://id.lkd.local/encodingFormat/> .
 
 # TODO: Add TAR
 

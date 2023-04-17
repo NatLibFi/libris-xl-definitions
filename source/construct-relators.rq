@@ -3,14 +3,14 @@ prefix owl: <http://www.w3.org/2002/07/owl#>
 prefix skos: <http://www.w3.org/2004/02/skos/core#>
 prefix bf2: <http://id.loc.gov/ontologies/bibframe/>
 prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#>
-prefix : <https://id.melindax.local/vocab/>
+prefix : <https://id.lkd.local/vocab/>
 
 construct {
     ?s ?p ?o ;
         skos:prefLabel ?enLabel, ?fiLabel, ?deLabel, ?frLabel .
 
 } where {
-    graph <https://id.melindax.local/dataset/relators> {
+    graph <https://id.lkd.local/dataset/relators> {
         {
             ?s ?p ?o .
         } union {

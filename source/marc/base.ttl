@@ -5,9 +5,9 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix bf2: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix schema: <http://schema.org/> .
-@prefix kbv: <https://id.melindax.local/vocab/> .
-@prefix marc: <https://id.melindax.local/marc/> .
-@prefix: <https://id.melindax.local/marc/> .
+@prefix kbv: <https://id.lkd.local/vocab/> .
+@prefix marc: <https://id.lkd.local/marc/> .
+@prefix: <https://id.lkd.local/marc/> .
 
 # Use these to define which MARC category a class belongs to.
 :auth a skos:Collection ; :code "auth" .

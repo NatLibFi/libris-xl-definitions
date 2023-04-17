@@ -2,8 +2,8 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix sdo: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix: <https://id.melindax.local/vocab/> .
-#@base <https://id.melindax.local/term/rda/movnotation/> . TODO: Define in datasets. movnotation or notemove.
+@prefix: <https://id.lkd.local/vocab/> .
+#@base <https://id.lkd.local/term/rda/movnotation/> . TODO: Define in datasets. movnotation or notemove.
 
 @prefix rdafnv: <http://rdaregistry.info/termList/noteMove/> .
 

@@ -1,7 +1,7 @@
 prefix xsd: <http://www.w3.org/2001/XMLSchema#>
-prefix : <https://id.melindax.local/vocab/>
+prefix : <https://id.lkd.local/vocab/>
 
-base <https://melindax.local/dataset/>
+base <https://melindax.lkd.local/dataset/>
 
 <qlit/terms> a :Dataset ;
     :prefLabel "Dataset med QLIT-termer"@sv, "Dataset of QLIT terms"@en ;

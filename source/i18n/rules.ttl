@@ -1,5 +1,5 @@
-prefix : <https://id.melindax.local/vocab/>
-base <https://id.melindax.local/>
+prefix : <https://id.lkd.local/vocab/>
+base <https://id.lkd.local/>
 
 </i18n/rule/x0/lessing> a :LanguageTransformRules ;
   :label "Lessing"@sv ;

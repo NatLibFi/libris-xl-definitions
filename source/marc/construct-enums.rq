@@ -2,8 +2,8 @@
 # <http://www.marc21rdf.info/>
 prefix owl: <http://www.w3.org/2002/07/owl#>
 prefix skos: <http://www.w3.org/2004/02/skos/core#>
-prefix kbv: <https://id.melindax.local/vocab/>
-prefix marc: <https://id.melindax.local/marc/>
+prefix kbv: <https://id.lkd.local/vocab/>
+prefix marc: <https://id.lkd.local/marc/>
 prefix marcgt: <http://id.loc.gov/vocabulary/marcgt/>
 
 ##
@@ -63,7 +63,7 @@ construct {
         owl:deprecated ?deprecated ;
         skos:notation ?code ;
         skos:prefLabel ?label_sv, ?label_en ;
-        skos:inScheme <https://id.melindax.local/marc> ;
+        skos:inScheme <https://id.lkd.local/marc> ;
         skos:exactMatch ?exactMatch ;
         skos:broader ?broader .
 

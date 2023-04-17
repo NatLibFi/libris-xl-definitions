@@ -3,8 +3,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix sdo: <http://schema.org/> .
-@prefix kbv: <https://id.melindax.local/vocab/> .
-@prefix marc: <https://id.melindax.local/marc/> .
+@prefix kbv: <https://id.lkd.local/vocab/> .
+@prefix marc: <https://id.lkd.local/marc/> .
 
 # MARC Indicator Lists
 

@@ -1,6 +1,6 @@
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-prefix swepub: <https://id.melindax.local/term/swepub/>
-prefix : <https://id.melindax.local/vocab/>
+prefix swepub: <https://id.lkd.local/term/swepub/>
+prefix : <https://id.lkd.local/vocab/>
 
 swepub:PublicationType a :EnumerationClass ;
     rdfs:subClassOf :GenreForm ;

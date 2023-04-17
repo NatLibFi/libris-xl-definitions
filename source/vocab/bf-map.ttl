@@ -2,7 +2,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix sdo: <http://schema.org/> .
 @prefix bf2: <http://id.loc.gov/ontologies/bibframe/> .
-@prefix kbv: <https://id.melindax.local/vocab/> .
+@prefix kbv: <https://id.lkd.local/vocab/> .
 
 #kbv:Record owl:equivalentClass kbv:AdminMetadata .
 

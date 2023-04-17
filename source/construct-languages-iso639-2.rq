@@ -4,7 +4,7 @@ prefix skos: <http://www.w3.org/2004/02/skos/core#>
 prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#>
 prefix dc: <http://purl.org/dc/terms/>
 prefix iso639_2: <http://id.loc.gov/vocabulary/iso639-2/>
-prefix kbv: <https://id.melindax.local/vocab/>
+prefix kbv: <https://id.lkd.local/vocab/>
 
 construct {
     ?s ?p ?o ;
@@ -12,7 +12,7 @@ construct {
         skos:altLabel ?altLabel ;
         skos:exactMatch ?locLang ;
 } where {
-    graph <https://id.melindax.local/dataset/languages> {
+    graph <https://id.lkd.local/dataset/languages> {
         {
             ?s ?p ?o .
         } union {

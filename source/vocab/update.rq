@@ -1,5 +1,5 @@
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-prefix : <https://id.melindax.local/vocab/>
+prefix : <https://id.lkd.local/vocab/>
 
 insert {
     ?term rdfs:isDefinedBy :

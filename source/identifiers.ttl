@@ -1,9 +1,9 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-@base <http://id.melindax.local/idscheme/> . # TODO: base /alias/ ?
+@base <http://id.lkd.local/idscheme/> . # TODO: base /alias/ ?
 
 # Aliases for externally defined
-@base <http://id.melindax.local/idscheme/> .
+@base <http://id.lkd.local/idscheme/> .
 <issn> skos:notation "ISSN" .
 <isbn> skos:notation "ISBN" .
 <ean> skos:notation "EAN" .

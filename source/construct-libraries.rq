@@ -1,9 +1,9 @@
 prefix owl: <http://www.w3.org/2002/07/owl#>
 prefix skos: <http://www.w3.org/2004/02/skos/core#>
 prefix sdo: <http://schema.org/>
-prefix bibdb: <http://melindax.local/def/lib#>
-prefix : <https://id.melindax.local/vocab/>
-base <https://melindax.local/library/>
+prefix bibdb: <http://melindax.lkd.local/def/lib#>
+prefix : <https://id.lkd.local/vocab/>
+base <https://melindax.lkd.local/library/>
 
 construct {
 
@@ -39,7 +39,7 @@ construct {
 
     optional {
         ?bdb_id bibdb:libris_reg ?reg . filter ( ?reg = true )
-        bind (iri('https://id.melindax.local/term/bibdb/Registrant') as ?registranturl)
+        bind (iri('https://id.lkd.local/term/bibdb/Registrant') as ?registranturl)
     }
 
     optional {

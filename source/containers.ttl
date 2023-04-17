@@ -1,61 +1,61 @@
-@prefix: <https://id.melindax.local/vocab/> .
+@prefix: <https://id.lkd.local/vocab/> .
 
-<https://id.melindax.local/term/sao/> a :EntityContainer ;
-    :membershipResource <https://id.melindax.local/term/sao> ;
+<https://id.lkd.local/term/sao/> a :EntityContainer ;
+    :membershipResource <https://id.lkd.local/term/sao> ;
     :isMemberOfRelation :inScheme ;
     :memberClass :Topic, :Temporal, :Geographic, :ComplexSubject, :TopicSubdivision ;
     :slugProperty :prefLabel ;
-    :administeredBy <https://melindax.local/library/Ssao> .
+    :administeredBy <https://melindax.lkd.local/library/Ssao> .
 
-<https://id.melindax.local/term/saogf/> a :EntityContainer ;
-    :membershipResource <https://id.melindax.local/term/saogf> ;
+<https://id.lkd.local/term/saogf/> a :EntityContainer ;
+    :membershipResource <https://id.lkd.local/term/saogf> ;
     :isMemberOfRelation :inScheme ;
     :memberClass :GenreForm ;
     :slugProperty :prefLabel ;
-    :administeredBy <https://melindax.local/library/Ssao>  .
+    :administeredBy <https://melindax.lkd.local/library/Ssao>  .
 
-<https://id.melindax.local/term/barn/> a :EntityContainer ;
-    :membershipResource <https://id.melindax.local/term/barn> ;
+<https://id.lkd.local/term/barn/> a :EntityContainer ;
+    :membershipResource <https://id.lkd.local/term/barn> ;
     :isMemberOfRelation :inScheme ;
     :memberClass :Topic, :Temporal ;
     :slugProperty :prefLabel ;
-    :administeredBy <https://melindax.local/library/Ssao> ,
-            <https://melindax.local/library/Sbi> .
+    :administeredBy <https://melindax.lkd.local/library/Ssao> ,
+            <https://melindax.lkd.local/library/Sbi> .
 
-<https://id.melindax.local/term/barngf/> a :EntityContainer ;
-    :membershipResource <https://id.melindax.local/term/barngf> ;
+<https://id.lkd.local/term/barngf/> a :EntityContainer ;
+    :membershipResource <https://id.lkd.local/term/barngf> ;
     :isMemberOfRelation :inScheme ;
     :memberClass :GenreForm ;
     :slugProperty :prefLabel ;
-    :administeredBy <https://melindax.local/library/Ssao> ,
-            <https://melindax.local/library/Sbi> .
+    :administeredBy <https://melindax.lkd.local/library/Ssao> ,
+            <https://melindax.lkd.local/library/Sbi> .
 
-<https://id.melindax.local/term/gmgpc/swe/> a :EntityContainer ;
-    :membershipResource <https://id.melindax.local/term/gmgpc/swe> ;
+<https://id.lkd.local/term/gmgpc/swe/> a :EntityContainer ;
+    :membershipResource <https://id.lkd.local/term/gmgpc/swe> ;
     :isMemberOfRelation :inScheme ;
     :memberClass :GenreForm ;
     :slugProperty :prefLabel ;
-    :administeredBy <https://melindax.local/library/Ssao> .
+    :administeredBy <https://melindax.lkd.local/library/Ssao> .
 
-<https://id.melindax.local/term/sab/> a :EntityContainer ;
-    :membershipResource <https://id.melindax.local/term/sab> ;
+<https://id.lkd.local/term/sab/> a :EntityContainer ;
+    :membershipResource <https://id.lkd.local/term/sab> ;
     :isMemberOfRelation :inScheme ;
     :memberClass :Classification ;
     :slugProperty :code ;
-    :administeredBy <https://melindax.local/library/S> .
+    :administeredBy <https://melindax.lkd.local/library/S> .
 
 # other existing systems:
 
-<https://id.melindax.local/term/kao/> a :EntityContainer ;
-    :membershipResource <https://id.melindax.local/term/kao> ;
+<https://id.lkd.local/term/kao/> a :EntityContainer ;
+    :membershipResource <https://id.lkd.local/term/kao> ;
     :isMemberOfRelation :inScheme ;
     :memberClass :Topic, :Temporal, :Geographic, :ComplexSubject, :TopicSubdivision ;
     :slugProperty :prefLabel ;
-    :administeredBy <https://melindax.local/library/Ssao> .
+    :administeredBy <https://melindax.lkd.local/library/Ssao> .
 
-<https://id.melindax.local/term/swemesh/> a :EntityContainer ;
-    :membershipResource <https://id.melindax.local/term/swemesh> ;
+<https://id.lkd.local/term/swemesh/> a :EntityContainer ;
+    :membershipResource <https://id.lkd.local/term/swemesh> ;
     :isMemberOfRelation :inScheme ;
     :memberClass :Topic, :Temporal, :Geographic, :ComplexSubject, :TopicSubdivision ;
     :slugProperty :prefLabel ;
-    :administeredBy <https://melindax.local/library/S> .
+    :administeredBy <https://melindax.lkd.local/library/S> .
