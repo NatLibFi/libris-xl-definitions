@@ -98,7 +98,7 @@
 
 # TODO: work-in-progress
 
-#@prefix app: <https://id.kb.se/def/application#> .
+#@prefix app: <https://id.melindax.local/def/application#> .
 #
 #_:exampleOfWorkPartNumber a app:ContextualProperty;
 #    owl:propertyChainAxiom (:exampleOfWork :partNumber) ;

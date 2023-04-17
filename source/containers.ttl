@@ -1,61 +1,61 @@
 @prefix: <https://id.melindax.local/vocab/> .
 
-<https://id.kb.se/term/sao/> a :EntityContainer ;
-    :membershipResource <https://id.kb.se/term/sao> ;
+<https://id.melindax.local/term/sao/> a :EntityContainer ;
+    :membershipResource <https://id.melindax.local/term/sao> ;
     :isMemberOfRelation :inScheme ;
     :memberClass :Topic, :Temporal, :Geographic, :ComplexSubject, :TopicSubdivision ;
     :slugProperty :prefLabel ;
-    :administeredBy <https://libris.kb.se/library/Ssao> .
+    :administeredBy <https://melindax.local/library/Ssao> .
 
-<https://id.kb.se/term/saogf/> a :EntityContainer ;
-    :membershipResource <https://id.kb.se/term/saogf> ;
+<https://id.melindax.local/term/saogf/> a :EntityContainer ;
+    :membershipResource <https://id.melindax.local/term/saogf> ;
     :isMemberOfRelation :inScheme ;
     :memberClass :GenreForm ;
     :slugProperty :prefLabel ;
-    :administeredBy <https://libris.kb.se/library/Ssao>  .
+    :administeredBy <https://melindax.local/library/Ssao>  .
 
-<https://id.kb.se/term/barn/> a :EntityContainer ;
-    :membershipResource <https://id.kb.se/term/barn> ;
+<https://id.melindax.local/term/barn/> a :EntityContainer ;
+    :membershipResource <https://id.melindax.local/term/barn> ;
     :isMemberOfRelation :inScheme ;
     :memberClass :Topic, :Temporal ;
     :slugProperty :prefLabel ;
-    :administeredBy <https://libris.kb.se/library/Ssao> ,
-            <https://libris.kb.se/library/Sbi> .
+    :administeredBy <https://melindax.local/library/Ssao> ,
+            <https://melindax.local/library/Sbi> .
 
-<https://id.kb.se/term/barngf/> a :EntityContainer ;
-    :membershipResource <https://id.kb.se/term/barngf> ;
+<https://id.melindax.local/term/barngf/> a :EntityContainer ;
+    :membershipResource <https://id.melindax.local/term/barngf> ;
     :isMemberOfRelation :inScheme ;
     :memberClass :GenreForm ;
     :slugProperty :prefLabel ;
-    :administeredBy <https://libris.kb.se/library/Ssao> ,
-            <https://libris.kb.se/library/Sbi> .
+    :administeredBy <https://melindax.local/library/Ssao> ,
+            <https://melindax.local/library/Sbi> .
 
-<https://id.kb.se/term/gmgpc/swe/> a :EntityContainer ;
-    :membershipResource <https://id.kb.se/term/gmgpc/swe> ;
+<https://id.melindax.local/term/gmgpc/swe/> a :EntityContainer ;
+    :membershipResource <https://id.melindax.local/term/gmgpc/swe> ;
     :isMemberOfRelation :inScheme ;
     :memberClass :GenreForm ;
     :slugProperty :prefLabel ;
-    :administeredBy <https://libris.kb.se/library/Ssao> .
+    :administeredBy <https://melindax.local/library/Ssao> .
 
-<https://id.kb.se/term/sab/> a :EntityContainer ;
-    :membershipResource <https://id.kb.se/term/sab> ;
+<https://id.melindax.local/term/sab/> a :EntityContainer ;
+    :membershipResource <https://id.melindax.local/term/sab> ;
     :isMemberOfRelation :inScheme ;
     :memberClass :Classification ;
     :slugProperty :code ;
-    :administeredBy <https://libris.kb.se/library/S> .
+    :administeredBy <https://melindax.local/library/S> .
 
 # other existing systems:
 
-<https://id.kb.se/term/kao/> a :EntityContainer ;
-    :membershipResource <https://id.kb.se/term/kao> ;
+<https://id.melindax.local/term/kao/> a :EntityContainer ;
+    :membershipResource <https://id.melindax.local/term/kao> ;
     :isMemberOfRelation :inScheme ;
     :memberClass :Topic, :Temporal, :Geographic, :ComplexSubject, :TopicSubdivision ;
     :slugProperty :prefLabel ;
-    :administeredBy <https://libris.kb.se/library/Ssao> .
+    :administeredBy <https://melindax.local/library/Ssao> .
 
-<https://id.kb.se/term/swemesh/> a :EntityContainer ;
-    :membershipResource <https://id.kb.se/term/swemesh> ;
+<https://id.melindax.local/term/swemesh/> a :EntityContainer ;
+    :membershipResource <https://id.melindax.local/term/swemesh> ;
     :isMemberOfRelation :inScheme ;
     :memberClass :Topic, :Temporal, :Geographic, :ComplexSubject, :TopicSubdivision ;
     :slugProperty :prefLabel ;
-    :administeredBy <https://libris.kb.se/library/S> .
+    :administeredBy <https://melindax.local/library/S> .

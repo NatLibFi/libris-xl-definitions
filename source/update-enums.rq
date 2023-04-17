@@ -1,5 +1,5 @@
 prefix skos: <http://www.w3.org/2004/02/skos/core#>
-prefix : <http://id.kb.se/ns/marc/>
+prefix : <http://id.melindax.local/ns/marc/>
 
 insert {
     ?coll skos:member ?term .

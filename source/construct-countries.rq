@@ -11,7 +11,7 @@ construct {
         skos:prefLabel ?prefLabel .
 
 } where {
-    graph <https://id.kb.se/dataset/countries> {
+    graph <https://id.melindax.local/dataset/countries> {
         {
             {
                 ?s ?p ?o .

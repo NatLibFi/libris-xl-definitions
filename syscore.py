@@ -7,9 +7,9 @@ from urllib.parse import urljoin
 
 SCRA = Namespace("http://purl.org/net/schemarama#")
 
-LIBRIS_BASE = "https://libris.kb.se/"
+LIBRIS_BASE = "https://melindax.local/"
 
-ID_BASE = "https://id.kb.se/"
+ID_BASE = "https://id.melindax.local/"
 
 SCRIPT_DIR = os.path.dirname(__file__) or '.'
 

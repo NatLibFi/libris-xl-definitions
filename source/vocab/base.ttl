@@ -24,7 +24,7 @@
 
 
 : a owl:Ontology;
-    owl:sameAs <https://id.kb.se/vocab> ;
+    owl:sameAs <https://id.melindax.local/vocab> ;
     dc:title "KB Base Vocabulary"@en;
     dc:title "KB:s basvokabulär"@sv;
     rdfs:comment "Detta vokabulär fungerar som en central mappning till publika, välkända egenskaper och klasser."@sv;
@@ -32,7 +32,7 @@
     dc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     owl:imports dc:, dctype:, skos:, prov:, foaf:, bibo:, sdo:, bf2:, bflc: ;
     skos:hasTopConcept :Instance, :Work, :Item, :Agent, :Concept ;
-    :dataDisplay <https://id.kb.se/vocab/display> .
+    :dataDisplay <https://id.melindax.local/vocab/display> .
 
 
 ##

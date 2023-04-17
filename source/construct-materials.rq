@@ -5,7 +5,7 @@ construct {
         skos:prefLabel ?prefLabel ;
         skos:definition ?definition .
 } where {
-    graph <https://id.kb.se/dataset/materials> {
+    graph <https://id.melindax.local/dataset/materials> {
         ?s ?p ?o .
         optional {
             ?s skos:exactMatch ?aat .

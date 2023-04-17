@@ -7,7 +7,7 @@ import common
 import docs
 
 SCRIPT_DIR = os.path.dirname(__file__) or '.'
-BASE = "https://id.kb.se/"
+BASE = "https://id.melindax.local/"
 
 compiler = Compiler(base_dir=SCRIPT_DIR,
                     dataset_id=BASE + 'dataset/definitions',

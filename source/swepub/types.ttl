@@ -1,8 +1,8 @@
-prefix : <https://id.kb.se/vocab/>
+prefix : <https://id.melindax.local/vocab/>
 prefix skos: <http://www.w3.org/2004/02/skos/core#>
-prefix swepub: <https://id.kb.se/term/swepub/>
-prefix sppubl: <https://id.kb.se/term/swepub/publication/>
-prefix spout: <https://id.kb.se/term/swepub/output/>
+prefix swepub: <https://id.melindax.local/term/swepub/>
+prefix sppubl: <https://id.melindax.local/term/swepub/publication/>
+prefix spout: <https://id.melindax.local/term/swepub/output/>
 
 swepub:ArtisticWork a :GenreForm ;
     skos:exactMatch sppubl:kfu, spout:artistic-work .

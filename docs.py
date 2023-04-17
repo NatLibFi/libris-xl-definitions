@@ -2,7 +2,7 @@ import os
 import markdown
 from lxltools.datacompiler import Compiler
 
-BASE = "https://id.kb.se/"
+BASE = "https://id.melindax.local/"
 
 SCRIPT_DIR = os.path.dirname(__file__) or '.'
 

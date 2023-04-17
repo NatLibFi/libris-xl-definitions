@@ -1,6 +1,6 @@
-prefix : <https://id.kb.se/vocab/>
+prefix : <https://id.melindax.local/vocab/>
 prefix xsd: <http://www.w3.org/2001/XMLSchema#>
-base <https://libris.kb.se/>
+base <https://melindax.local/>
 
 </dataset> a :Dataset ;
     :sameAs </.well-known/void>;
@@ -12,4 +12,4 @@ base <https://libris.kb.se/>
     :isPartOf </dataset/> ;
     :created "2022-11-19T13:09:35.010Z"^^xsd:dateTime ;
     :sourceData [ :uri "build/syscore.jsonld.lines" ;
-        :sourceData [ :tool <https://id.kb.se/generator/syscorecompiler> ] ] .
+        :sourceData [ :tool <https://id.melindax.local/generator/syscorecompiler> ] ] .

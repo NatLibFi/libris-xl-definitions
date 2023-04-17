@@ -1,5 +1,5 @@
-prefix : <https://id.kb.se/vocab/>
-base <https://id.kb.se/>
+prefix : <https://id.melindax.local/vocab/>
+base <https://id.melindax.local/>
 
 </i18n/collection/libris-t-rules> a :Collection ;
     :label "Libris urval av translittereringsregler"@sv, "Libris selection of transliteration rules"@en ;

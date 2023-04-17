@@ -1,9 +1,9 @@
 prefix xsd: <http://www.w3.org/2001/XMLSchema#>
-prefix : <https://id.kb.se/vocab/>
-base <https://id.kb.se/dataset/>
+prefix : <https://id.melindax.local/vocab/>
+base <https://id.melindax.local/dataset/>
 
 <common> a :Dataset;
-    :isPartOf <https://libris.kb.se/dataset> .
+    :isPartOf <https://melindax.local/dataset> .
 
 <enums> a :Dataset ;
     :sourceData [ :uri "build/enums.json.lines" ;
@@ -32,7 +32,7 @@ base <https://id.kb.se/dataset/>
                     #<http://rdaregistry.info/termList/ModeIssue> ,
                     <http://id.loc.gov/vocabulary/issuance.skos.rdf> ;
                 # NOTE: this is serialized using system context!
-            ] ] ;
+            ] ] ; 
     :uriSpace "/term/rda/" ;
     :created "2018-05-16T06:18:01.337Z"^^xsd:dateTime .
 

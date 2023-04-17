@@ -5,7 +5,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix bf2: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix schema: <http://schema.org/> .
-@prefix kbv: <https://id.kb.se/vocab/> .
+@prefix kbv: <https://id.melindax.local/vocab/> .
 @prefix marc: <https://id.melindax.local/marc/> .
 @prefix: <https://id.melindax.local/marc/> .
 

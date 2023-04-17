@@ -1,6 +1,6 @@
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix owl: <http://www.w3.org/2002/07/owl#>
-prefix : <https://id.kb.se/vocab/>
+prefix : <https://id.melindax.local/vocab/>
 
 insert {
     ?term rdfs:subClassOf :Resource
@@ -15,7 +15,7 @@ insert {
     # Don't add subClassOf if term already is :Resource
     filter(?term != :Resource)
 
-    # Don't add if ?subClassOf contains refs that starts with <https://id.kb.se/vocab/>
+    # Don't add if ?subClassOf contains refs that starts with <https://id.melindax.local/vocab/>
     MINUS {
         ?term rdfs:subClassOf ?baseClassUri
         filter ((?baseClassUri != :) && strstarts(str(?baseClassUri), str(:)))

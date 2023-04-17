@@ -1,5 +1,5 @@
 @prefix dc: <http://purl.org/dc/terms/> .
-@prefix kbv: <https://id.kb.se/vocab/> .
+@prefix kbv: <https://id.melindax.local/vocab/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .

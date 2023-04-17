@@ -1,8 +1,8 @@
-prefix swe: <https://id.kb.se/term/swepub/>
+prefix swe: <https://id.melindax.local/term/swepub/>
 prefix skos: <http://www.w3.org/2004/02/skos/core#>
 
 insert {
-    ?term skos:inScheme <https://id.kb.se/term/swepub>
+    ?term skos:inScheme <https://id.melindax.local/term/swepub>
 } where {
     ?term ?p ?o
     filter ((?term != swe:) && strstarts(str(?term), str(swe:)))

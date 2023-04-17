@@ -22,7 +22,7 @@
 @prefix rdau: <http://rdaregistry.info/Elements/u/> .
 
 @prefix: <https://id.melindax.local/vocab/> .
-@prefix kbrel: <https://id.kb.se/relator/> .
+@prefix kbrel: <https://id.melindax.local/relator/> .
 
 ##--------------------------------#
 ## Title Information
