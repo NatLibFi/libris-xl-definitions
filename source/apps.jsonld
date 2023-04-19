@@ -1,16 +1,16 @@
 {
   "@graph": [
     {
-      "@id": "https://libris.kb.se/",
+      "@id": "https://melindax.lkd.local/",
       "@type": "DataCatalog",
-      "title": "libris.kb.se",
+      "title": "melindax.lkd.local",
       "article": {
         "@type": "Article",
-        "articleBody": "<p xml:lang='sv'>Data på <b>LIBRIS.KB.SE</b>.</p>"
+        "articleBody": "<p xml:lang='sv'>Data på <b>MELINDAX.LKD.LOCAL</b>.</p>"
       }
     },
     {
-      "@id": "https://libris.kb.se/data",
+      "@id": "https://melindax.lkd.local/data",
       "@type": "DataService",
       "titleByLang": {"en": "LIBRIS-XL Linked Data Platform API"},
       "statistics": {
@@ -20,7 +20,7 @@
       }
     },
     {
-      "@id": "https://libris.kb.se/find",
+      "@id": "https://melindax.lkd.local/find",
       "@type": "DataService",
       "titleByLang":  {"sv": "Sök-tjänst", "en": "Search Service"},
       "statistics": {
@@ -49,21 +49,21 @@
       }
     },
     {
-      "@id": "https://id.kb.se/",
+      "@id": "https://id.lkd.local/",
       "@type": "DataCatalog",
       "title": "ID.KB.SE",
-      "description": {"@id": "https://id.kb.se/doc/summary"},
+      "description": {"@id": "https://id.lkd.local/doc/summary"},
       "articleList": [
-        {"@id": "https://id.kb.se/"},
-        {"@id": "https://id.kb.se/marcframe/"},
-        {"@id": "https://id.kb.se/vocab/"},
-        {"@id": "https://id.kb.se/doc/about"}
+        {"@id": "https://id.lkd.local/"},
+        {"@id": "https://id.lkd.local/marcframe/"},
+        {"@id": "https://id.lkd.local/vocab/"},
+        {"@id": "https://id.lkd.local/doc/about"}
       ]
     },
     {
-      "@id": "https://id.kb.se/data",
+      "@id": "https://id.lkd.local/data",
       "@type": "DataService",
-      "titleByLang":  {"sv": "Data-index för id.kb.se"},
+      "titleByLang":  {"sv": "Data-index för id.lkd.local"},
       "statistics": {
         "sliceList": [
           { "dimensionChain": ["inScheme"], "itemLimit": 1000 },
@@ -72,9 +72,9 @@
       }
     },
     {
-      "@id": "https://id.kb.se/find",
+      "@id": "https://id.lkd.local/find",
       "@type": "DataService",
-      "titleByLang":  {"sv": "Sök-tjänst för id.kb.se", "en": "Search Service for id.kb.se"},
+      "titleByLang":  {"sv": "Sök-tjänst för id.lkd.local", "en": "Search Service for id.lkd.local"},
       "statistics": {
         "sliceList": [
           { "dimensionChain": ["inScheme"], "itemLimit": 1000 },

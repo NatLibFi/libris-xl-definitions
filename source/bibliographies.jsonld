@@ -1,6 +1,6 @@
 {
   "@context": {
-    "@vocab": "http://libris.kb.se/def/terms#",
+    "@vocab": "http://melindax.lkd.local/def/terms#",
     "bibliographyByNotation": {"@id": "@graph", "@container": "@index"},
     "label": {"@language": "sv"}
   },

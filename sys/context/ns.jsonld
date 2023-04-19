@@ -7,6 +7,6 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dc": "http://purl.org/dc/terms/",
     "schema": "http://schema.org/",
-    "kbv": "https://id.kb.se/vocab/"
+    "kbv": "https://id.lkd.local/vocab/"
   }
 }

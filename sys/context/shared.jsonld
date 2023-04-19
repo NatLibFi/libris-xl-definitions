@@ -7,7 +7,7 @@
     "sdo": "http://schema.org/",
     "jsonld": "http://www.w3.org/ns/json-ld#",
     "fresnel": "http://www.w3.org/2004/09/fresnel#",
-    "kbv": "https://id.kb.se/vocab/",
+    "kbv": "https://id.lkd.local/vocab/",
 
     "Property": "rdf:Property",
     "Datatype": "rdfs:Datatype",

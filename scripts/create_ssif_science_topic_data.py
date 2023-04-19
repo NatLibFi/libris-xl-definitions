@@ -35,9 +35,9 @@ def create_data(fpath):
 
     return {
         "@context": {
-          "@vocab": "https://id.kb.se/vocab/",
+          "@vocab": "https://id.lkd.local/vocab/",
           "prefLabelByLang": {"@id": "prefLabel", "@container": "@language"},
-          "@base": "https://id.kb.se/term/ssif/"
+          "@base": "https://id.lkd.local/term/ssif/"
         },
         "@graph": items
     }

@@ -3,9 +3,9 @@
     "fresnel": "http://www.w3.org/2004/09/fresnel#",
       "skos": "http://www.w3.org/2004/02/skos/core#",
       "owl": "http://www.w3.org/2002/07/owl#",
-      "@base": "https://id.kb.se/vocab/display",
-      "@vocab": "https://id.kb.se/vocab/",
-      "marc": "https://id.kb.se/marc/",
+      "@base": "https://id.lkd.local/vocab/display",
+      "@vocab": "https://id.lkd.local/vocab/",
+      "marc": "https://id.lkd.local/marc/",
       "lensGroups": {"@id": "@graph", "@container": "@index"},
       "lenses": {"@reverse": "fresnel:group", "@container": "@index"},
       "showProperties": {"@id": "fresnel:showProperties", "@container": "@list", "@type": "@vocab"},
@@ -24,7 +24,7 @@
       "nameByLang": {"@id": "name", "@container": "@language"}
   },
   "@graph": [
-    {"@id": "https://id.kb.se/vocab/display"}
+    {"@id": "https://id.lkd.local/vocab/display"}
   ],
   "lensGroups": {
     "tokens": {

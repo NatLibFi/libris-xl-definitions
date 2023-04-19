@@ -16,8 +16,8 @@ RDFXMLHandler.startPrefixMapping = patched_startPrefixMapping
 BF2 = Namespace('http://id.loc.gov/ontologies/bibframe/')
 MADSRDF = Namespace('http://www.loc.gov/mads/rdf/v1#')
 
-KBRDA = Namespace('https://id.kb.se/rda/')
-KBV = Namespace('https://id.kb.se/vocab/')
+KBRDA = Namespace('https://id.lkd.local/rda/')
+KBV = Namespace('https://id.lkd.local/vocab/')
 
 RDAContentType = URIRef('http://rdaregistry.info/termList/RDAContentType')
 LCContentType = URIRef('http://id.loc.gov/vocabulary/contentTypes')

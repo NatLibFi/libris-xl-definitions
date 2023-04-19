@@ -11,7 +11,7 @@ VANN = Namespace("http://purl.org/vocab/vann/")
 VS = Namespace("http://www.w3.org/2003/06/sw-vocab-status/ns#")
 
 
-BASE = "https://id.kb.se/"
+BASE = "https://id.lkd.local/"
 TERMS = Namespace(BASE + "vocab/")
 MARC = Namespace(BASE + "marc/")
 DATASET_BASE = Namespace(BASE + "dataset/")

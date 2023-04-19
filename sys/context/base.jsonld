@@ -5,8 +5,8 @@
     "foaf": "http://xmlns.com/foaf/0.1/",
     "dc": "http://purl.org/dc/terms/",
     "hydra": "http://www.w3.org/ns/hydra/core#",
-    "@vocab": "https://id.kb.se/vocab/",
-    "marc": "https://id.kb.se/marc/",
+    "@vocab": "https://id.lkd.local/vocab/",
+    "marc": "https://id.lkd.local/marc/",
 
     "@import": "./shared.jsonld",
 

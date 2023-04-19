@@ -2,7 +2,7 @@
   "@context": {
     "@import": "./shared.jsonld",
 
-    "@vocab": "https://id.kb.se/vocab/",
+    "@vocab": "https://id.lkd.local/vocab/",
 
     "issuanceType": {"@type": "@vocab"},
     "additionalType": {"@type": "@vocab"},
@@ -215,7 +215,7 @@
     "usageAndAccessPolicy": {"@container": "@set"},
     "videoCharacteristic": {"@container": "@set"},
 
-    "marc": "https://id.kb.se/marc/",
+    "marc": "https://id.lkd.local/marc/",
 
     "marc:data": {"@container": "@list"},
     "marc:partList": {"@container": "@list"},

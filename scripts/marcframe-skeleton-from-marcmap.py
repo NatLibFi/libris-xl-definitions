@@ -759,9 +759,9 @@ if __name__ == '__main__':
     if MAKE_VOCAB:
         import string
         terms = {
-            "@base": "https://id.kb.se/marc/",
-            "marc": "https://id.kb.se/marc/",
-            "kbv": "https://id.kb.se/vocab/", # TODO: kbv
+            "@base": "https://id.lkd.local/marc/",
+            "marc": "https://id.lkd.local/marc/",
+            "kbv": "https://id.lkd.local/vocab/", # TODO: kbv
             #"inCollection": {"@reverse": "skos:member"},
             "inCollection": None,
             "prefLabel": {"@id": "skos:prefLabel", "@language": "sv"},
@@ -786,7 +786,7 @@ if __name__ == '__main__':
             "column": {"@reverse": "sdo:domainIncludes", "@container": "@index"},
             "subfield": {"@reverse": "domain", "@type": "@id"},
             "marcType": {"@id": "inScheme", "@type": "@id"},
-            "@vocab": "https://id.kb.se/marc/",
+            "@vocab": "https://id.lkd.local/marc/",
         }
         terms['i1'] = terms['subfield']
         terms['i2'] = terms['subfield']

@@ -4,8 +4,8 @@
 #   $ python3 scripts/construct.py source/remote/construct-matching-wd-labels.rq THIS_FILE
 # then add the resulting :prefLabel data here.
 # NOTE: There should always be a curated label in Swedish (@sv).
-prefix : <https://id.kb.se/vocab/>
-base <https://id.kb.se/>
+prefix : <https://id.lkd.local/vocab/>
+base <https://id.lkd.local/>
 
 </i18n/script/Arab> a :Script ;
   :code "Arab" ;

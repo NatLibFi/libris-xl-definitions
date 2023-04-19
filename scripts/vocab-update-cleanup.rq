@@ -1,7 +1,7 @@
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX dbpo: <http://dbpedia.org/ontology/>
 PREFIX sdo: <http://schema.org/>
-PREFIX : <http://libris.kb.se/def/terms#>
+PREFIX : <http://libris.lkd.local/def/terms#>
 
 DELETE DATA {
 

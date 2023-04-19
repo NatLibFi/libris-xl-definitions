@@ -4,7 +4,7 @@
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "dc": "http://purl.org/dc/terms/",
     "skos": "http://www.w3.org/2004/02/skos/core#",
-    "app": "http://kat.libris.kb.se/def/application#",
+    "app": "http://kat.melindax.lkd.local/def/application#",
     "index": {"@container": "@index", "@id": "@graph"},
     "label": {"@id": "rdfs:label", "@language": "sv"},
     "comment": {"@id": "rdfs:comment", "@language": "sv"},
